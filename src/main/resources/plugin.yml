@@ -5,3 +5,7 @@ api-version: 1.18
 authors: [ chenko ]
 description: The player receives damage when earning exp
 website: https://www.chenko.be
+permissions:
+  expdamage.exempt:
+    default: false
+    description: Players with this permission will not take damage from exp orbs.

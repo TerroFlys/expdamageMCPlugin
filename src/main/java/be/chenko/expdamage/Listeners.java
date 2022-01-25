@@ -9,7 +9,10 @@ public class Listeners implements Listener {
     @EventHandler
     public void PlayerExpChangeEvent(PlayerExpChangeEvent event){
         Player player = event.getPlayer();
-        double dmg = event.getAmount()/3;
-        player.damage(dmg);
+        if (!player.hasPermission("expdamage.exempt")){
+            double dmg = event.getAmount()/3;
+            player.damage(dmg);
+        }
+
     }
 }
