@@ -1,0 +1,11 @@
+#Enable the exp damage
+enable-exp-damage: true
+#######################
+#######################
+#WIP
+#
+#Divides the amount of xp received to not get insta-killed
+#The higher the divider, the lower the damage
+#
+#THIS DOES NOT WORK YET
+amount-divider: 3
