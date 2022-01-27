@@ -6,7 +6,7 @@
 
     <groupId>be.chenko</groupId>
     <artifactId>expdamage</artifactId>
-    <version>1.2</version>
+    <version>1.3</version>
     <packaging>jar</packaging>
 
     <name>Expdamage</name>

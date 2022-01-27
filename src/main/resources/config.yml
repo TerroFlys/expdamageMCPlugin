@@ -1,11 +1,14 @@
 #Enable the exp damage
 enable-exp-damage: true
-#######################
-#######################
-#WIP
 #
 #Divides the amount of xp received to not get insta-killed
 #The higher the divider, the lower the damage
 #
-#THIS DOES NOT WORK YET
-amount-divider: 3
+#Setting this value to 0 will do 0 damage, meaning you will get the damage effect without getting actual damage.
+amount-divider: 5
+#
+#
+#
+#CONFIG VERSION
+#DO NOT CHANGE
+config-version: 1.3
